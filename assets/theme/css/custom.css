@@ -1,0 +1,8 @@
+.owl-carousel .owl-dots .owl-dot {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 8px;
+    vertical-align: middle;
+}
