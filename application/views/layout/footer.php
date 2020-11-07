@@ -18,8 +18,8 @@
                     <div class="office-text">
                         <h4>Indore, India</h4>
                         <p>74/A, Bhawanipur Colony,<br/>
-                                 
-                                    Inodre, MP, India</p>
+
+                            Inodre, MP, India</p>
                         <a href="#" target="blank" class="btn-outline">View on Map <i class="fas fa-chevron-right fa-icon"></i></a>
                     </div>
                 </div>
@@ -32,14 +32,14 @@
                     <div class="office-text">
                         <h4>Hong Kong</h4>
                         <p>Flat B, 4th Floor, Yen Chun Mansion,<br/>
-                        
+
                             Yau Ma Tei, Kowloon, Hong Kong</p>
                         <a href="#" target="blank" class="btn-outline">View on Map <i class="fas fa-chevron-right fa-icon"></i></a>
                     </div>
                 </div>
             </div>
-            
-           
+
+
         </div>
     </div>
 </section>
@@ -63,7 +63,7 @@
 
                             <p>Email <span style='display: block!important'> 
                                     <a href="mailto:sales@varbin.com" >sales@varbin.com</a><br/>
-                                    <a href="mailto:info@varbin.com" >info@varbin.com</a>
+                                    <a href="mailto:info@varbin.com" style='    margin-top: 8px;  float: left;'>info@varbin.com</a>
                                 </span>
 
                             </p>
@@ -76,7 +76,7 @@
                         <li>
                             <span><i class="fas fa-map-marker-alt"></i></span>
                             <p>Head Office <span> 74/A, Bhawanipur Colony,<br/>
-                                 
+
                                     Inodre, MP, India</span></p>
                         </li>
                     </ul>
@@ -103,7 +103,7 @@
                         <li class=" "><a href="#" class="menu-links">Contact Uss</a></li>
                     </ul>
                 </div>
-                
+
             </div>
         </div>
     </div>
@@ -121,7 +121,7 @@
 
                         </div>
                         <div class="footer-">
-                            <p>Copyright &copy; <?php echo date("Y");?> Varbin. All rights reserved. </p>
+                            <p>Copyright &copy; <?php echo date("Y"); ?> Varbin. All rights reserved. </p>
                         </div>
                     </div>
                 </div>
