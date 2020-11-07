@@ -20,7 +20,7 @@
                         <p>74/A, Bhawanipur Colony,<br/>
                                  
                                     Inodre, MP, India</p>
-                        <a href="javascript:void(0)" target="blank" class="btn-outline">View on Map <i class="fas fa-chevron-right fa-icon"></i></a>
+                        <a href="#" target="blank" class="btn-outline">View on Map <i class="fas fa-chevron-right fa-icon"></i></a>
                     </div>
                 </div>
             </div>
@@ -34,7 +34,7 @@
                         <p>Flat B, 4th Floor, Yen Chun Mansion,<br/>
                         
                             Yau Ma Tei, Kowloon, Hong Kong</p>
-                        <a href="javascript:void(0)" target="blank" class="btn-outline">View on Map <i class="fas fa-chevron-right fa-icon"></i></a>
+                        <a href="#" target="blank" class="btn-outline">View on Map <i class="fas fa-chevron-right fa-icon"></i></a>
                     </div>
                 </div>
             </div>
@@ -114,10 +114,10 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="footer-social-media-icons">
-                            <a href="javascript:void(0)" target="blank"><i class="fab fa-facebook"></i></a>
-                            <a href="javascript:void(0)" target="blank"><i class="fab fa-twitter"></i></a>
-                            <a href="javascript:void(0)" target="blank"><i class="fab fa-instagram"></i></a>
-                            <a href="javascript:void(0)" target="blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" target="blank"><i class="fab fa-facebook"></i></a>
+                            <a href="#" target="blank"><i class="fab fa-twitter"></i></a>
+                            <a href="#" target="blank"><i class="fab fa-instagram"></i></a>
+                            <a href="#" target="blank"><i class="fab fa-linkedin"></i></a>
 
                         </div>
                         <div class="footer-">
