@@ -134,7 +134,8 @@
 <a id="scrollUp" href="#top"></a>
 <!-- js placed at the end of the document so the pages load faster -->
 <script src="<?php echo base_url(); ?>assets/theme/js/vendor/modernizr-3.5.0.min.js"></script>
-<script src="<?php echo base_url(); ?>assets/theme/js/jquery.min.js"></script>
+<!--<script src="<?php echo base_url(); ?>assets/theme/js/jquery.min.js"></script>-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="<?php echo base_url(); ?>assets/theme/js/bootstrap.min.js"></script>
 <script src="<?php echo base_url(); ?>assets/theme/js/popper.min.js"></script>
 <script src="<?php echo base_url(); ?>assets/theme/js/plugin.min.js"></script>
