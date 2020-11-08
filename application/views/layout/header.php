@@ -3,8 +3,10 @@
     <head>
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="manifest" href="<?php echo base_url() . 'assets/manifest.webmanifest'; ?>">
         <meta name="theme-color" content="#c7ecff">
         <meta name="author" content="Varbin Development Team">
+
 
         <!-- Document Title -->
         <?php
@@ -41,7 +43,7 @@
     <header class="nav-bg-b main-header navfix fixed-top menu-white header-pr">
         <div class="container-fluid m-pad">
             <div class="menu-header">
-                <div class="dsk-logo"><a class="nav-brand" href="<?php echo site_url("/");?>">
+                <div class="dsk-logo"><a class="nav-brand" href="<?php echo site_url("/"); ?>">
                         <img src="<?php echo base_url(); ?>assets/theme/images/white-logo.png" alt="Logo" class="mega-white-logo"/>
                         <img src="<?php echo base_url(); ?>assets/theme/images/logo.png" alt="Logo" class="mega-darks-logo"/>
                     </a></div>
