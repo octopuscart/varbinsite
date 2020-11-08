@@ -114,10 +114,10 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="footer-social-media-icons">
-                            <a href="#" target="blank"><i class="fab fa-facebook"></i></a>
-                            <a href="#" target="blank"><i class="fab fa-twitter"></i></a>
-                            <a href="#" target="blank"><i class="fab fa-instagram"></i></a>
-                            <a href="#" target="blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" target="blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                            <a href="#" target="blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" target="blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" target="blank" aria-label="Linkedin"><i class="fab fa-linkedin"></i></a>
 
                         </div>
                         <div class="footer-">
@@ -131,7 +131,7 @@
 </footer>
 <!--End Footer-->
 <!--scroll to top-->
-<a id="scrollUp" href="#top"></a>
+
 <!-- js placed at the end of the document so the pages load faster -->
 <script src="<?php echo base_url(); ?>assets/theme/js/vendor/modernizr-3.5.0.min.js"></script>
 <!--<script src="<?php echo base_url(); ?>assets/theme/js/jquery.min.js"></script>-->
