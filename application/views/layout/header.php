@@ -62,7 +62,7 @@
                 </div>
                 <div class="mobile-menu2">
                     <ul class="mob-nav2">
-                        <li><a href="#" class="btn-round- trngl btn-br bg-btn btshad-b1"  data-toggle="modal" data-target="#menu-popup"><i class="fas fa-envelope-open-text"></i></a></li>
+                        <li><a href="#" class="btn-round- trngl btn-br bg-btn btshad-b1" id="mobilepopup" data-toggle="modal" data-target="#menu-popup"><i class="fas fa-envelope-open-text"></i></a></li>
                         <li class="navm-"> <a class="toggle" href="#"><span></span></a></li>
                     </ul>
                 </div>
