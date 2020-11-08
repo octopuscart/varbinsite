@@ -445,10 +445,10 @@ $this->load->view('layout/header');
                             </div>
                         </div>
                         <div class="fieldsets row">
-                            <div class="col-md-6"><input type="number" placeholder="Contact Number" name="phone"></div>
-                            <div class="col-md-6"><input type="text" placeholder="Subject" name="subject"></div>
+                            <div class="col-md-6"><label for="inputcontact">Your Contact No.</label><input id="inputcontact" type="number" placeholder="Contact Number" name="phone"></div>
+                            <div class="col-md-6"><label for="inputsubject">Subject</label><input type="text" id="inputsubject" placeholder="Subject" name="subject"></div>
                         </div>
-                        <div class="fieldsets"><textarea placeholder="Message" name="message"></textarea></div>
+                        <div class="fieldsets"><label for="inputmessage">Type Here</label><textarea placeholder="Message" name="message" id="inputmessage"></textarea></div>
                         <div class="custom-control custom-checkbox">
                             <input type="checkbox" class="custom-control-input" id="customCheck" name="example1" checked="checked">
                             <label class="custom-control-label" for="customCheck">I agree to the <a href="#">Terms &amp; Conditions</a> of Costco Int'l </label>
