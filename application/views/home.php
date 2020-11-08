@@ -94,7 +94,7 @@ $this->load->view('layout/header');
                         <h1 class="mb30 text-radius text-light text-animation bg-b">VARBIN SOFTWARES <br/>MULTI SOLUTION COMPANY
                         </h1>
                         <p>We provides a broad, deep spectrum of technology services to help organizations translate their strategic business agendas into IT initiatives and solutions that measurably improve performance.</p>
-                        <h3 class="mt30 mb30">Big Ideas, creative people, new technology.</h3>
+                     
                     </div>
                 </div>
             </div>
