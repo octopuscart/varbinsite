@@ -40,7 +40,7 @@
     <header class="nav-bg-b main-header navfix fixed-top menu-white header-pr">
         <div class="container-fluid m-pad">
             <div class="menu-header">
-                <div class="dsk-logo"><a class="nav-brand" href="digital-agency.html">
+                <div class="dsk-logo"><a class="nav-brand" href="<?php echo site_url("/");?>">
                         <img src="<?php echo base_url(); ?>assets/theme/images/white-logo.png" alt="Logo" class="mega-white-logo"/>
                         <img src="<?php echo base_url(); ?>assets/theme/images/logo.png" alt="Logo" class="mega-darks-logo"/>
                     </a></div>
@@ -48,115 +48,25 @@
                     <ul class="nav-list">
                         <li class=""><a href="#" class="menu-links">INSIGHTS</a></li>
                         <li class=" "><a href="#" class="menu-links">SERVICES</a></li>
-                         <li class=" "><a href="#" class="menu-links">INDUSTRIES</a></li>
-                         <li class=" "><a href="#" class="menu-links">WORKS</a></li>
-                            <li class=" "><a href="#" class="menu-links">CONTACT US</a></li>
+                        <li class=" "><a href="#" class="menu-links">INDUSTRIES</a></li>
+                        <li class=" "><a href="#" class="menu-links">WORKS</a></li>
+                        <li class=" "><a href="#" class="menu-links">CONTACT US</a></li>
                         <li><a href="#" class="menu-links right-bddr">&nbsp;</a>
                             <!--menu right border-->
-                      
-                        <li><a href="get-quote.html" class="btn-br bg-btn3 btshad-b2 lnk">Request A Quote <span class="circle"></span></a> </li>
+
+                        <li><a href="#" class="btn-br bg-btn3 btshad-b2 lnk">Request A Quote <span class="circle"></span></a> </li>
                     </ul>
                 </div>
-        
+
             </div>
             <!--Mobile Menu-->
             <nav id="main-nav">
                 <ul class="first-nav">
-                    <li><a href="#">Home</a>
-                        <ul>
-                            <li>
-                                <a href="#">Homepage Demos</a>
-                                <ul>
-                                    <li><a href="digital-agency.html">Digital Agency</a></li>
-                                    <li><a href="digital-agency-dark.html">Digital Agency Dark</a></li>
-                                    <li><a href="web-design-agency.html">Web Design Agency</a></li>
-                                    <li><a href="web-design-agency-dark.html">Web Design Agency Dark</a></li>
-                                    <li><a href="digital-marketing.html">Digital Marketing</a></li>
-                                    <li><a href="digital-marketing-dark.html">Digital Marketing Dark</a></li>
-                                    <li><a href="lead-generation.html">Lead Generation Agency</a></li>
-                                    <li><a href="lead-generation-dark.html">Lead Generation Agency Dark</a></li>
-                                    <li><a href="freelance-portfolio.html">Freelance Portfolio</a></li>
-                                    <li><a href="freelance-portfolio-dark.html">Freelance Portfolio Dark</a></li>
-                                    <li><a href="minimal-portfolio.html">Minimal Portfolio</a></li>
-                                    <li><a href="creative-agency.html">Creative Agency</a></li>
-                                    <li><a href="branding-agency.html">Branding  Agency</a></li>
-                                    <li><a href="app-development.html">App Development Agency</a></li>
-                                    <li><a href="modern-agency.html">Modern Agency</a></li>
-                                    <li><a href="business-and-startup.html">Business & Startup</a></li>
-                                    <li><a href="graphic-studio.html">Graphic Studio</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">One-Page Demos</a>
-                                <ul>
-                                    <li><a href="graphic-studio-onepage.html">Graphic Studio</a></li>
-                                    <li><a href="branding-agency-onepage.html">Branding  Agency</a></li>
-                                    <li><a href="modern-agency-onepage.html">Modern Agency</a></li>
-                                    <li><a href="business-and-startup-onepage.html">Business & Startups</a></li>
-                                    <li><a href="creative-agency-onepage.html">Creative Agency</a></li>
-                                    <li><a href="minimal-portfolio-onepage.html">Minimal Portfolio</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Pages</a>
-                        <ul>
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="why-us.html">Why Us</a></li>
-                            <li><a href="team.html">Our Team</a></li>
-                            <li><a href="team-details.html">Team Single</a></li>
-                            <li><a href="case-study.html">Case Study</a></li>
-                            <li><a href="case-study-details.html">Case Study Single</a></li>
-                            <li><a href="mission-vision.html">Mission & Vision</a></li>
-                            <li><a href="development-process.html">Development Process</a></li>
-                            <li><a href="client-reviews.html">Client Reviews</a> </li>
-                            <li><a href="clients.html">Our Clients</a></li>
-                            <li><a href="get-quote.html">Contact Us</a> </li>
-                            <li><a href="career.html">Careers</a> </li>
-                            <li><a href="login.html">Login Page</a> </li>
-                            <li><a href="service-card.html">Service Card</a> </li>
-                            <li><a href="service-web.html">Service Web</a></li>
-                            <li><a href="service-app.html">Service Mobile App</a></li>
-                            <li><a href="service-marketing.html">Service Digital Marketing</a></li>
-                            <li><a href="service-graphic.html">Service Graphic</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Shortcodes</a>
-                        <ul>
-                            <li><a href="pricing.html">Pricing</a></li>
-                            <li><a href="typography.html">Typography</a></li>
-                            <li><a href="button.html">Buttons</a></li>
-                            <li><a href="locations.html">Office Location</a></li>
-                            <li><a href="hover-animation.html">Hover Animation</a></li>
-                            <li><a href="faq.html">FAQs</a>	</li>
-                            <li><a href="tabs.html">Tabs</a></li>
-                            <li><a href="error.html">404 Page</a></li>
-                            <li><a href="gradients.html">Background Gradients</a></li>
-                            <li><a href="popup-modal.html">Popup Modal</a></li>
-                            <li><a href="lists.html">Lists</a></li>
-                            <li><a href="header-v1.html">Header v1</a></li>
-                            <li><a href="header-v2.html">Header v2</a></li>
-                            <li><a href="header-v3.html">Header v3</a></li>
-                            <li><a href="footer-design.html">Footer</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Portfolio</a>
-                        <ul>
-                            <li><a href="portfolio.html">Portfolio Grid 1</a> </li>
-                            <li><a href="portfolio-2.html">Portfolio Grid 2</a> </li>
-                            <li><a href="portfolio-block.html">Portfolio Wide Block</a> </li>
-                            <li><a href="portfolio-details.html">Portfolio Details</a> </li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Blog</a>
-                        <ul>
-                            <li><a href="blog-grid-1.html">Blog Grid 1</a> </li>
-                            <li><a href="blog-grid-2.html">Blog Grid 2</a> </li>
-                            <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a> </li>
-                            <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a> </li>
-                            <li><a href="blog-single.html">Blog Single</a></li>
-                        </ul>
-                    </li>
+                    <li class=""><a href="#" class="menu-links">INSIGHTS</a></li>
+                    <li class=" "><a href="#" class="menu-links">SERVICES</a></li>
+                    <li class=" "><a href="#" class="menu-links">INDUSTRIES</a></li>
+                    <li class=" "><a href="#" class="menu-links">WORKS</a></li>
+                    <li class=" "><a href="#" class="menu-links">CONTACT US</a></li>
                 </ul>
                 <ul class="bottom-nav">
                     <li class="prb">
