@@ -4,7 +4,8 @@
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="theme-color" content="#c7ecff">
-        <meta name="author" content="Costco Development Team">
+        <meta name="author" content="Varbin Development Team">
+
         <!-- Document Title -->
         <?php
         meta_tags();
