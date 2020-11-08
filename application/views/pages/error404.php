@@ -2,20 +2,26 @@
 $this->load->view('layout/header');
 ?>
 
-
-<div id="content"> 
-    <section class="page_title bg_gradiant image_fixed t_align_c relative wrapper" style="margin-top: 0px;text-align: center">
-        <img src="images/page_404.jpg" alt="" class="page_404 d_xs_none">
-        <h1 class="color_light fw_light m_bottom_12 text-center">Error 404 Page</h1>
-        <!--breadcrumbs-->
-        <h4 class="color_grey_light_3 text-center" style="margin-bottom: 50px; ">This Page Could Not Be Found :(</h4>
-       <center style="margin-bottom: 50px; ">
-           <a href="/"  style="    font-size: 20px;" class=" text-center btn btn-danger">BACK TO HOME</a>
-       </center>
-    </section>
-</div>
-
-
+<!--Start 404 Error-->
+<section class="error bg-gradient pad-tb">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center mt50 mb50">
+                <div class="layer-div">
+                    <div class="error-block">
+                        <h1>Page not Found</h1>
+              
+                        <div class="images mt20">
+                            <img src="<?php echo base_url(); ?>assets/theme/images/shape/error-page.png" alt="error page" class="img-fluid"/>
+                        </div>
+                        <a href="<?php echo site_url("/");?>" class="btn-outline">Back to Home</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End 404 Error-->
 <?php
 $this->load->view('layout/footer');
 ?>
