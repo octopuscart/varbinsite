@@ -144,5 +144,4 @@
 <script src="<?php echo base_url(); ?>assets/theme/js/main.js"></script>
 </body>
 
-<!-- Mirrored from rajeshdoot.com/niwax-demos/html/web-design-agency.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 07 Nov 2020 07:55:03 GMT -->
 </html>
