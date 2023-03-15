@@ -2,6 +2,7 @@
 $globleConnectDB = array();
 $globleConnectCartCheckout = array();
 $globleConnectReport = array(); 
+$globleRoutes = array();
 try {
     $username = "j2k5e6r5_octopus";
     $password = "India$2017";
@@ -24,6 +25,12 @@ try {
     while($row = $stmt->fetch()) {
         $globleConnectCartCheckout = $row;
     }
+        $stmt1 = $conn->prepare('SELECT id, uri FROM content_pages');
+    $stmt1->execute();
+    while($row = $stmt1->fetch()) {
+        array_push($globleRoutes, $row);
+    }
+    
     
     
 } catch(PDOException $e) {

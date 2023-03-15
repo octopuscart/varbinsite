@@ -59,8 +59,8 @@ $route['mask/(:any)'] = 'Pages/mask/$1';
 $route['protection/(:any)'] = 'Pages/protection/$1';
 $route['services/(:any)'] = 'Pages/services/$1';
 require("configdbconnect.php");
-
 foreach ($globleRoutes as $key => $value) {
-    $route[$value["uri"]] = 'Content/pages/' . $value["uri"];
+     $route[$value["uri"]] = 'Content/pages/' . $value["uri"];
 }
+
 $route['translate_uri_dashes'] = FALSE;
